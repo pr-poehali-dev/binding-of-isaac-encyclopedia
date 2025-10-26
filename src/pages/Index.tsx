@@ -18,30 +18,30 @@ const Index = () => {
   ];
 
   const characters = [
-    { name: 'Isaac', description: 'Стартовый персонаж с базовыми характеристиками', stats: 'HP: 3, Скорость: 1.0, Урон: 3.5' },
-    { name: 'Magdalene', description: 'Персонаж с увеличенным здоровьем', stats: 'HP: 4, Скорость: 0.85, Урон: 3.5' },
-    { name: 'Cain', description: 'Удачливый персонаж с повышенным шансом дропа', stats: 'HP: 2, Скорость: 1.2, Урон: 3.5' },
-    { name: 'Judas', description: 'Высокий урон, но низкое здоровье', stats: 'HP: 1, Скорость: 1.0, Урон: 4.5' },
-    { name: 'Eve', description: 'Становится сильнее при низком здоровье', stats: 'HP: 2, Скорость: 1.23, Урон: 3.5' },
-    { name: 'Samson', description: 'Получает урон за убийства', stats: 'HP: 3, Скорость: 1.1, Урон: 3.5' },
+    { name: 'Isaac', description: 'Стартовый персонаж с базовыми характеристиками', stats: 'HP: 3, Скорость: 1.0, Урон: 3.5', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/9c18bf18-9ef0-4f63-b6be-152eaf5a01d3.jpg' },
+    { name: 'Magdalene', description: 'Персонаж с увеличенным здоровьем', stats: 'HP: 4, Скорость: 0.85, Урон: 3.5', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/989399c0-ec78-49e8-80d1-eeff20d3c78f.jpg' },
+    { name: 'Cain', description: 'Удачливый персонаж с повышенным шансом дропа', stats: 'HP: 2, Скорость: 1.2, Урон: 3.5', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/9c18bf18-9ef0-4f63-b6be-152eaf5a01d3.jpg' },
+    { name: 'Judas', description: 'Высокий урон, но низкое здоровье', stats: 'HP: 1, Скорость: 1.0, Урон: 4.5', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/9c18bf18-9ef0-4f63-b6be-152eaf5a01d3.jpg' },
+    { name: 'Eve', description: 'Становится сильнее при низком здоровье', stats: 'HP: 2, Скорость: 1.23, Урон: 3.5', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/989399c0-ec78-49e8-80d1-eeff20d3c78f.jpg' },
+    { name: 'Samson', description: 'Получает урон за убийства', stats: 'HP: 3, Скорость: 1.1, Урон: 3.5', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/9c18bf18-9ef0-4f63-b6be-152eaf5a01d3.jpg' },
   ];
 
   const items = [
-    { name: 'The Inner Eye', type: 'Пассивный', effect: 'Тройной выстрел, уменьшает скорость атаки' },
-    { name: 'Brimstone', type: 'Пассивный', effect: 'Заменяет слёзы на лазерный луч' },
-    { name: 'Mom\'s Knife', type: 'Пассивный', effect: 'Заменяет слёзы на летающий нож' },
-    { name: 'Sacred Heart', type: 'Пассивный', effect: 'Огромное увеличение урона, самонаводящиеся слёзы' },
-    { name: 'Tech X', type: 'Пассивный', effect: 'Стреляет лазерными кольцами' },
-    { name: 'Dr. Fetus', type: 'Пассивный', effect: 'Заменяет слёзы на взрывающиеся бомбы' },
+    { name: 'The Inner Eye', type: 'Пассивный', effect: 'Тройной выстрел, уменьшает скорость атаки', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/79d10768-dd01-489a-8fec-acccef5ec15c.jpg' },
+    { name: 'Brimstone', type: 'Пассивный', effect: 'Заменяет слёзы на лазерный луч', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/2f702095-22c0-4eab-a41b-e26e25758b2e.jpg' },
+    { name: 'Mom\'s Knife', type: 'Пассивный', effect: 'Заменяет слёзы на летающий нож', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/2f702095-22c0-4eab-a41b-e26e25758b2e.jpg' },
+    { name: 'Sacred Heart', type: 'Пассивный', effect: 'Огромное увеличение урона, самонаводящиеся слёзы', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/79d10768-dd01-489a-8fec-acccef5ec15c.jpg' },
+    { name: 'Tech X', type: 'Пассивный', effect: 'Стреляет лазерными кольцами', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/2f702095-22c0-4eab-a41b-e26e25758b2e.jpg' },
+    { name: 'Dr. Fetus', type: 'Пассивный', effect: 'Заменяет слёзы на взрывающиеся бомбы', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/2f702095-22c0-4eab-a41b-e26e25758b2e.jpg' },
   ];
 
   const bosses = [
-    { name: 'Monstro', location: 'Basement', difficulty: 'Легкий', description: 'Огромное чудовище, прыгающее по комнате' },
-    { name: 'Mom', location: 'Depths II', difficulty: 'Средний', description: 'Первый серьёзный босс игры' },
-    { name: 'Satan', location: 'Sheol', difficulty: 'Сложный', description: 'Финальный босс оригинальной концовки' },
-    { name: 'Isaac', location: 'Cathedral', difficulty: 'Сложный', description: 'Босс альтернативного пути' },
-    { name: 'The Lamb', location: 'Dark Room', difficulty: 'Очень сложный', description: 'Финальный босс тёмного пути' },
-    { name: 'Mega Satan', location: 'Dark Room/Chest', difficulty: 'Экстремальный', description: 'Секретный финальный босс' },
+    { name: 'Monstro', location: 'Basement', difficulty: 'Легкий', description: 'Огромное чудовище, прыгающее по комнате', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/0111da16-107c-488e-9556-12392b8387f2.jpg' },
+    { name: 'Mom', location: 'Depths II', difficulty: 'Средний', description: 'Первый серьёзный босс игры', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/4a3e9fe5-2811-4941-bacd-9c91567a8c22.jpg' },
+    { name: 'Satan', location: 'Sheol', difficulty: 'Сложный', description: 'Финальный босс оригинальной концовки', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/f68d7e7a-0866-4adf-98c3-3fcd9dc86053.jpg' },
+    { name: 'Isaac', location: 'Cathedral', difficulty: 'Сложный', description: 'Босс альтернативного пути', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/f68d7e7a-0866-4adf-98c3-3fcd9dc86053.jpg' },
+    { name: 'The Lamb', location: 'Dark Room', difficulty: 'Очень сложный', description: 'Финальный босс тёмного пути', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/f68d7e7a-0866-4adf-98c3-3fcd9dc86053.jpg' },
+    { name: 'Mega Satan', location: 'Dark Room/Chest', difficulty: 'Экстремальный', description: 'Секретный финальный босс', image: 'https://cdn.poehali.dev/projects/45444562-a329-43b8-9573-916149b5883a/files/f68d7e7a-0866-4adf-98c3-3fcd9dc86053.jpg' },
   ];
 
   const locations = [
@@ -151,12 +151,15 @@ const Index = () => {
                 <p className="text-base mb-6 leading-relaxed">
                   В игре доступно множество играбельных персонажей, каждый из которых обладает уникальными характеристиками и стартовыми предметами. Выбор персонажа кардинально влияет на стиль игры и стратегию прохождения.
                 </p>
-                <div className="grid gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {characters.map((char) => (
-                    <div key={char.name} className="border rounded-sm p-4 hover:bg-accent/50 transition-colors">
-                      <h3 className="font-bold text-lg mb-2 text-primary">{char.name}</h3>
-                      <p className="text-sm mb-2">{char.description}</p>
-                      <p className="text-xs text-muted-foreground font-mono">{char.stats}</p>
+                    <div key={char.name} className="border rounded-sm p-4 hover:bg-accent/50 transition-colors flex gap-4">
+                      <img src={char.image} alt={char.name} className="w-20 h-20 object-cover rounded border" />
+                      <div className="flex-1">
+                        <h3 className="font-bold text-lg mb-2 text-primary">{char.name}</h3>
+                        <p className="text-sm mb-2">{char.description}</p>
+                        <p className="text-xs text-muted-foreground font-mono">{char.stats}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -181,14 +184,17 @@ const Index = () => {
                   />
                 </div>
 
-                <div className="grid gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {items.map((item) => (
-                    <div key={item.name} className="border rounded-sm p-4 hover:bg-accent/50 transition-colors">
-                      <div className="flex items-start justify-between mb-2">
-                        <h3 className="font-bold text-lg text-primary">{item.name}</h3>
-                        <span className="text-xs bg-secondary px-2 py-1 rounded">{item.type}</span>
+                    <div key={item.name} className="border rounded-sm p-4 hover:bg-accent/50 transition-colors flex gap-4">
+                      <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded border" />
+                      <div className="flex-1">
+                        <div className="flex items-start justify-between mb-2">
+                          <h3 className="font-bold text-lg text-primary">{item.name}</h3>
+                          <span className="text-xs bg-secondary px-2 py-1 rounded">{item.type}</span>
+                        </div>
+                        <p className="text-sm">{item.effect}</p>
                       </div>
-                      <p className="text-sm">{item.effect}</p>
                     </div>
                   ))}
                 </div>
@@ -213,22 +219,25 @@ const Index = () => {
                   />
                 </div>
 
-                <div className="grid gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {bosses.map((boss) => (
-                    <div key={boss.name} className="border rounded-sm p-4 hover:bg-accent/50 transition-colors">
-                      <div className="flex items-start justify-between mb-2">
-                        <h3 className="font-bold text-lg text-primary">{boss.name}</h3>
-                        <span className={`text-xs px-2 py-1 rounded ${
-                          boss.difficulty === 'Легкий' ? 'bg-green-100 text-green-800' :
-                          boss.difficulty === 'Средний' ? 'bg-yellow-100 text-yellow-800' :
-                          boss.difficulty === 'Сложный' ? 'bg-orange-100 text-orange-800' :
-                          'bg-red-100 text-red-800'
-                        }`}>
-                          {boss.difficulty}
-                        </span>
+                    <div key={boss.name} className="border rounded-sm p-4 hover:bg-accent/50 transition-colors flex gap-4">
+                      <img src={boss.image} alt={boss.name} className="w-24 h-24 object-cover rounded border" />
+                      <div className="flex-1">
+                        <div className="flex items-start justify-between mb-2">
+                          <h3 className="font-bold text-lg text-primary">{boss.name}</h3>
+                          <span className={`text-xs px-2 py-1 rounded ${
+                            boss.difficulty === 'Легкий' ? 'bg-green-100 text-green-800' :
+                            boss.difficulty === 'Средний' ? 'bg-yellow-100 text-yellow-800' :
+                            boss.difficulty === 'Сложный' ? 'bg-orange-100 text-orange-800' :
+                            'bg-red-100 text-red-800'
+                          }`}>
+                            {boss.difficulty}
+                          </span>
+                        </div>
+                        <p className="text-sm mb-1">{boss.description}</p>
+                        <p className="text-xs text-muted-foreground">Локация: {boss.location}</p>
                       </div>
-                      <p className="text-sm mb-1">{boss.description}</p>
-                      <p className="text-xs text-muted-foreground">Локация: {boss.location}</p>
                     </div>
                   ))}
                 </div>
